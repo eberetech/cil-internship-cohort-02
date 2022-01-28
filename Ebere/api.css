@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-color: rgb(9, 9, 102);
+
+}
+
+.mapcontainer{
+box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+margin: 30px 0;
+width: 500px;
+text-align: center;
+color: black;
+padding: 30px 0;
+border-radius: 10px;
+background-color: white;}
+
+ 
+p{
+    /* background-color: thistle; */
+    padding-top: 10px ;
+}  

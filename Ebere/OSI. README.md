@@ -1,19 +1,17 @@
-Transmission control protocol/ internet protocol model (TCP/IP)
+# Transmission control protocol/ internet protocol model (TCP/IP)
 The TCP/IP model, like the OSI model, is layered and utilized in the same way, but TCP/IP model has fewer layers, because the modern Internet and the majority of communications utilize the Internet Protocol (IP), the TCP/IP model is more technically compatible with modern network implementations. Unlike the OSI model which comprises seven layers, the TCP/IP model is structured with four different layers. These four layers are:
-1.Network Access Layer/Link Layer
-2.Internet Layer
-3.Host to Host Layer/Transport layer
-4.Application Layer
+- Network Access Layer/Link Layer
+- Internet Layer
+- Host to Host Layer/Transport layer
+- Application Layer
 Now, let us discuss each of these four layers in detail along with their functions as a part of the protocol architecture.
-The Link Layer
-The link layer is the lowest layer of the TCP/IP model; it is also known as the network interface layer.The link layer integrates the operations of the physical and data connection layers into a single layer of the OSI model. 
-Frame physical network operations like as modulation, line coding and 
-bit synchronization, frame synchronization, and error detection are all included. It also converts IP addresses to physical addresses.This layer's primary role is to transmit data between two devices connected by a network.
+## The Link Layer
+The link layer is the lowest layer of the TCP/IP model; it is also known as the network interface layer.The link layer integrates the operations of the physical and data connection layers into a single layer of the OSI model.Frame physical network operations like as modulation, line coding and bit synchronization frame synchronization, and error detection are all included. It also converts IP addresses to physical addresses.This layer's primary role is to transmit data between two devices connected by a network.
 
-The Internet Layer
+## The Internet Layer
 In terms of structure, the Internet layer is the next layer up from the link layer and is structurally similar to the network layer of the OSI model. It involves transmitting data packets to their final destination network. Traffic routing, traffic management, fragmentation, and logical addressing are among several functions. IP, ICMP, and IGMP are examples of common protocols. IP is one of the most important protocols because it identifies a device's IP address, which is then used for internet work connections. The path through which the data will be transmitted is determined by this protocol. ARP, or Address Resolution Protocol, assists in determining the physical address from the IP address.ICMP stands for Internet Control Message Protocol, and it may be used to send back notifications about datagram problems to the user. ICMP alerts the user instantly if there is a problem with the network.
 
-The Transport Layer
+## The Transport Layer
 The next layer is the Transport layer, which is usually closely connected to the same called layer in the OSI model. Message segmentation, acknowledgment, traffic control, session multiplexing, error detection and correction (resends), and message reordering are all functions. The Transport Control Protocol (TCP) and the User Datagram Protocol (UDP) are two common protocols (UDP). TCP, or Transmission Control Mechanism, is another essential component. TCP is a reliable communication protocol. It manages data flow, i.e. the sequencing and segmentation of data. UDP is a connection-free protocol, making it less expensive but less reliable.
-The Application Layer
+## The Application Layer
 The Application layer is the uppermost layer in the TCP/IP model and is connected to the OSI model's session, presentation, and application levels. The application layer in the TCP/IP model handles all process-to-process communication functions; when referencing the OSI model, these functions were carried out by numerous separate levels. This layer performs a variety of services, including session establishment, maintenance, and termination, character code translations, data conversion, compression and encryption, remote access, network administration, and electronic messaging, to mention a few. Named Pipes, NetBIOS, MIME, TLS, SSL, FTP, DNS, HTTP, SMTP, and many other protocols are examples of common protocols used in application layer.

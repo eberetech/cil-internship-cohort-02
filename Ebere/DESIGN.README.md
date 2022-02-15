@@ -1,3 +1,17 @@
+#  intuitive or frustrating features
+## Evenote
+- It has too many features which makes it more prone to more bugs.
+- The android app version of evernote lacks good contrast
+- It is very slow to use and very complex with too many features.
+- Bad layout of their note feature
+## Google Keep
+- The users interface is so clustered and navigation gets more difficult for beginners who are not familiar with the app.
+- There is no way to revert changes or restore mistakenly deleted text.
+- There are no basic text formatting options
+- There are no options in increasing and decreasing the surface area of the note
+
+
+
 # UX/UI FUNDAMENTALS
 Many people use these two phrases interchangeably, yet UI and UX design are distinct aspects of product development. In this article, we'll define UI and UX design and discuss how they work together during the product design and development process. The term "user experience" (UX) refers to every interaction a user has with a product. It focuses on understanding customer problems and then designing simple, efficient user experiences.
 UI “User interface” designers create intuitive, appealing interfaces that contribute to the overall user experience. User interface design is entirely concerned with the user interface, which is the point at which users interact with a website, application, or product.The user interface (UI) is everything with which a user interacts when using a product. Screens, pages, audio, keyboards, and icons are all examples of interfaces. It is right to say that a UI designer is responsible for the look and feel of a product. A successful user interface should be intuitive, efficient and user-friendly.

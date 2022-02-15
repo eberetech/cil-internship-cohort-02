@@ -2,7 +2,7 @@
 from PIL import Image
 
 #open the image
-im = Image.open(r"C:\Users\DELL\Pictures\pics.jpg")
+im = Image.open(r"C:\Users\okeye\cil-internship-cohort-02\Ebere\OIP.jpg)
 
 #size of original image
 width, height = im.size
@@ -20,6 +20,7 @@ im1 = im1.resize(newsize)
 
 #shows the image
 im1.show ()
+
 
 
 

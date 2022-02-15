@@ -1,0 +1,13 @@
+{
+    "version":"2012-10-17",
+    "statement":[
+        {
+            "action":"sts:assumeRole",
+            "principal":{
+                "service":"lambda.awazonaws.com"
+            },
+            "effect": "allow",
+            "sid": ""
+        }
+    ]
+}

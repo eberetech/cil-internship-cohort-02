@@ -1,0 +1,11 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "LambdaPolicy01",
+            "Effect": "Allow",
+            "Action": "logs:*",
+            "Resource": "*"
+        }
+    ]
+}

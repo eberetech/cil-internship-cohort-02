@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS cloudformation s3 bucket template
+    
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+     DeletionPolicy: Retain
+    Description: Creating Amazon S3 bucket from CloudFormation
+    Properties:
+      BucketName: my-first-bucket
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action:
+              - 'sts:AssumeRole'
+            Effect: Allow
+            Principal:
+              Service:
+                - s3.amazonaws.com
+Outputs:
+  S3Bucket:
+    Description: Bucket Created using this template.
+    Value: !Ref S3Bucket
